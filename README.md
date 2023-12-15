@@ -15,7 +15,7 @@ Consider two completely connected graphs, A and B, that contain the same number 
 
 $f: A <=> B$  
 
-$V{{_A}_1} <=> V{{_{B}_1}$  
+$V{{_A}_1} <=> V{{_B}_2}$
 $V{{_A}_2} <=> V{{_B}_2}$   
 $V{{_A}_3} <=> V{{_B}_3}$   
 
@@ -27,4 +27,5 @@ From this finding we can then say that for any edge (u, v) $\in E_1, \exists (f(
 
 For any edge (c, d) $\in E_2, \exists (f^{-1}(c), f^{-1}(d)) \in E_2,$ where $f^{-1}$ is the inverse bijection of f. This ensures isomorphism in the reverse direction.  
 
-We have shown that any graphs completely connected graphs, A and B, with the same number of nodes must be isomorphic as there exists a bijective function $f: V_1 \rightarraow V_2$ such that $(u, v) \in E_1$ iff $(f(u), f(v)) \in E_2$
+We have shown that any graphs completely connected graphs, A and B, with the same number of nodes must be isomorphic as there exists a bijective function $f: V_1 \rightarrow V_2$ such that $(u, v) \in E_1$ iff $(f(u), f(v)) \in E_2$
+
