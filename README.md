@@ -15,7 +15,7 @@ Consider two completely connected graphs, A and B, that contain the same number 
 
 $f: A <=> B$  
 
-$V{{_A}_1} <=> V{{_B}_2}$
+$V{{_A}_1} <=> V{{_B}_2}$  
 $V{{_A}_2} <=> V{{_B}_2}$   
 $V{{_A}_3} <=> V{{_B}_3}$   
 
