@@ -11,4 +11,20 @@ $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
-Assume that two graphs A and B are isomorphic. Further assume that they must be completey connected. Since A & B are both isomorphic, there exists a bijective function that ensures an adjacency relationship between the nodes of both graphs. Consider the case in which A is a complete graph with n nodes $(K_{n})$ and B is also a complete graph with p nodes, $(K_{p})$ where $n \neq p$. Under the asssumption, A and B are isomorphic. Therefore, there must exist a one-to-one correspondence between their nodes. However, we have n nodes in A and p nodes in B where $n \neq p$. If we have n nodes in A and m nodes in B, and the two are not equal, then it is impossible to find a binective function mapping the nodes of A to the nodes of B while preserving the adjacency relationship. This is because in a complete graph, each node must be connected to every other node: in a situation in which one graph has more nodes than the other, there is bound to be a node(s) in one graph with more connections than the corresponding node(s) in the other. This contradiction arises from the assumption that A and B must be completely connected if they are isomorphic. therefore, graphs A and B need not be completely connected to be isomorphic.
+Consider two completely connected graphs, A and B, that contain the same number of nodes. Let $G_1 = (V_1, E_1)$ for A and $G_2 = (V_2, E_2) for B. Our bijective function may then be defined as follows:  
+
+$f: A <=> B$  
+
+$V_A_1 <=> V_B_1$  
+$V_A_2 <=> V_B_2$
+$V_A_3 <=> V_B_3$  
+
+.....  
+
+$V_A_n <=> V_B_n$  
+
+From this finding we can then say that for any edge (u, v) $\in E_1, \exists (f(u), f(v)) \in E_2$. This ensures isomorphism. (at least in the forward direction) Going the other way now we see that...  
+
+For any edge (c, d) $\in E_2, \exists (f^-1(c), f^-1(d)) \in E_2, where f^-1 is the inverse bijection of f$. This ensures isomorphism in the reverse direction.  
+
+We have shown that for any graphs, A and B that are completely connected with the same number of nodes must be isomorphic as there exists a bijective function $f: V_1 \rightarraow V_2 such that (u, v) \in E_1 iff (f(u), f(v)) \in E_2$
